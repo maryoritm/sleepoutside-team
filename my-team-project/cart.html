@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sleep Outside | Home</title>
     <link rel="stylesheet" href="css/style.css" />
+
     <script src="js/main.js" type="module"></script>
   </head>
 
@@ -63,6 +64,24 @@
 
       <section class="products">
         <h2>Top Products</h2>
+        <div class="filters">
+          <label for="category-filter">Filter by Category:</label>
+          <select id="category-filter">
+            <option value="all">All Categories</option>
+            <option value="tents">Tents</option>
+            <option value="sleeping-bags">Sleeping Bags</option>
+            <option value="backpacks">Backpacks</option>
+            <option value="hiking-gear">Hiking Gear</option>
+          </select>
+        
+          <label for="price-filter">Filter by Price:</label>
+          <select id="price-filter">
+            <option value="all">All Prices</option>
+            <option value="0-50">$0 - $50</option>
+            <option value="50-100">$50 - $100</option>
+            <option value="100-200">$100 - $200</option>
+            <option value="200+">$200+</option>
+          </select>  </div>
         <ul class="product-list">
           <li class="product-card">
             <a href="product_pages/?product=880RR">
