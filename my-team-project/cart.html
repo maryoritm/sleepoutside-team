@@ -62,9 +62,9 @@
         </div>
       </div>
 
-      <section class="products">
-        <h2>Top Products</h2>
-        <div class="filters">
+      
+      <div class="filters">
+        <div class="filter-group">
           <label for="category-filter">Filter by Category:</label>
           <select id="category-filter">
             <option value="all">All Categories</option>
@@ -73,7 +73,9 @@
             <option value="backpacks">Backpacks</option>
             <option value="hiking-gear">Hiking Gear</option>
           </select>
-        
+        </div>
+      
+        <div class="filter-group">
           <label for="price-filter">Filter by Price:</label>
           <select id="price-filter">
             <option value="all">All Prices</option>
@@ -81,7 +83,10 @@
             <option value="50-100">$50 - $100</option>
             <option value="100-200">$100 - $200</option>
             <option value="200+">$200+</option>
-          </select>  </div>
+          </select>
+        </div>
+      
+        <button id="reset-filters" class="filter-btn">Reset Filters</button></div>
         <ul class="product-list">
           <li class="product-card">
             <a href="product_pages/?product=880RR">
